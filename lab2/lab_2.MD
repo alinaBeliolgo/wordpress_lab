@@ -29,7 +29,7 @@ http://localhost:8000
 
 База данных для сайта была автоматически создана в контейнере MySQL.
 
-![docker](/images/image.png)
+![docker](images/image.png)
 
 
 ## 2. Установка WordPress
@@ -52,7 +52,7 @@ http://localhost:8000
 http://localhost/wp-admin
 ```
 
-![admin](/images/image-1.png)
+![admin](images/image-1.png)
 Скриншот: вход в админ-панель
 
 
@@ -68,7 +68,7 @@ http://localhost/wp-admin
 * часовой пояс
 
 Для удобства ссылок были настроены постоянные ссылки.
-![change time](/images/image-2.png)
+![change time](images/image-2.png)
 Скриншот: настройки General
 
 В разделе **Settings → Permalinks** был выбран вариант:
@@ -79,25 +79,25 @@ Post name
 
 Это позволяет создавать более удобные и понятные URL-адреса страниц.
 
-![post name](/images/image-3.png)
+![post name](images/image-3.png)
 Скриншот: настройки Permalinks
 
 
 
 ## 4. Работа с темами
 
-![first theme](/images/image-4.png)
+![first theme](images/image-4.png)
 Для изменения внешнего вида сайта была установлена новая тема.
 
 
 В разделе **Appearance → Themes** была установлена тема
 **Astra** из официального каталога WordPress.
-![the new one](/images/image-5.png)
+![the new one](images/image-5.png)
 
 После установки тема была активирована, и внешний вид сайта изменился.
 
 Далее в разделе **Appearance → Customize** были выполнены следующие настройки:
-![alt text](/images/image-6.png)
+![alt text](images/image-6.png)
 * добавлен логотип сайта
 * изменена цветовая схема
 * настроены заголовок и описание сайта
@@ -113,7 +113,7 @@ Post name
 
 * **Classic Editor** — плагин для использования классического редактора записей.
 * **Contact Form 7** — плагин для создания формы обратной связи.
-![plugins](/images/image-7.png)
+![plugins](images/image-7.png)
 После установки плагины были активированы.
 
 Плагин Classic Editor позволил создавать записи в классическом редакторе WordPress.
@@ -121,13 +121,13 @@ Post name
 
 
 Плагин Contact Form 7 позволил создать форму обратной связи, которую можно размещать на страницах сайта.
-![процесс](/images/image-8.png)
-![процесс2](/images/image-10.png)
+![процесс](images/image-8.png)
+![процесс2](images/image-10.png)
 
 
 Также был проведён тест: один из плагинов был отключён в разделе **Plugins → Installed Plugins**, после чего его функциональность стала недоступной.
-![form esti](/images/image-13.png)
-![no form](/images/image-14.png)
+![form esti](images/image-13.png)
+![no form](images/image-14.png)
 
 
 ## 6. Создание контента
@@ -139,11 +139,11 @@ Post name
 **Контакты**
 
 На страницу была добавлена форма обратной связи, созданная с помощью плагина Contact Form 7.
-![результат](/images/image-9.png)
+![результат](images/image-9.png)
 
 Также были созданы несколько записей в блоге :
-![результ](/images/image-12.png)
-![image](/images/image-15.png)
+![результ](images/image-12.png)
+![image](images/image-15.png)
 После публикации записей была проверена их корректная работа и отображение на сайте.
 
 
