@@ -33,7 +33,7 @@
 Далее была использована папка wp-content/themes, в которой создана директория usm-theme для собственной темы WordPress.
 
 Также по условию лабораторной работы требовалось включить отладку в файле wp-config.php через параметр WP_DEBUG.
-![wp-config](/images/image.png)
+![wp-config](images/image.png)
 
 ### Шаг 2. Создание обязательных файлов темы
 
@@ -79,25 +79,25 @@
 4. comments.php для блока комментариев
 5. archive.php для архивов записей
 
-![single](/images/single.png)
+![single](images/single.png)
 Файл single.php выводит полную запись, метаинформацию, изображение записи, теги, навигацию между постами и комментарии.
 
 Файл page.php используется для вывода обычных страниц и также подключает комментарии и боковую панель.
 
-![sidebar](/images/image-1.png)
+![sidebar](images/image-1.png)
 Файл sidebar.php выводит виджеты. Если виджетная область не заполнена, отображаются стандартные блоки: описание сайта, последние записи и список рубрик.
 
-![alt text](/images/comments.png)
+![alt text](images/comments.png)
 Файл comments.php отвечает за вывод списка комментариев и формы их добавления.
 
 Файл archive.php выводит архивные страницы по рубрикам, тегам, автору и датам.
-![alt text](/images/rubric.png)
-![alt text](/images/tags.png)
+![alt text](images/rubric.png)
+![alt text](images/tags.png)
 
 ### Шаг 6. Стилизация темы
 
 В файле style.css были добавлены стили для основных элементов сайта:
-![alt text](/images/main.png)
+![alt text](images/main.png)
 1. Шапка сайта
 2. Подвал
 3. Основной контент
@@ -112,8 +112,7 @@
 ### Шаг 7. Скриншот темы
 
 По условию задания в папку темы необходимо добавить файл screenshot.png размером 1200x900 px для отображения превью темы в админ-панели WordPress.
-
-![alt text](/wp-content/themes/usm-theme/screenshot.png)
+![alt text](images/theme.png)
 
 
 ### Шаг 8. Активация темы
@@ -125,7 +124,6 @@
 3. Выбор темы usm-theme
 4. Нажатие кнопки Activate
 5. Проверка отображения сайта на стороне пользователя
-![alt text](/images/theme.png)
 
 
 
