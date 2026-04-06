@@ -1,0 +1,291 @@
+/*
+Theme Name: MY new Theme
+Author: alina
+Description: Первая учебная тема WordPress - простая и легкая.
+Version: 0.0.1
+Text Domain: new-theme
+Tags: light, simple, blog
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f7;
+  color: #222;
+}
+
+.site-header {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+}
+
+.site-header p {
+  margin: 5px 0 0;
+  font-size: 0.95rem;
+  opacity: 0.8;
+}
+
+.site-footer {
+  background-color: #f4f4f4;
+  padding: 15px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.main-navigation {
+  background-color: #333;
+}
+
+.main-navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.main-navigation li {
+  margin: 0 10px;
+}
+
+.main-navigation a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+  font-size: 0.95rem;
+}
+
+.main-navigation a:hover,
+.main-navigation .current-menu-item > a {
+  background-color: #444;
+}
+
+.site-content {
+  display: flex;
+  max-width: 1200px;
+  margin: 20px auto;
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.entry-content,
+.post-content,
+.page-content {
+  flex: 1;
+}
+
+.main-sidebar {
+  width: 300px;
+  font-size: 0.95rem;
+}
+
+.widget {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+}
+
+.widget-title {
+  margin-top: 0;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+.widget ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.widget li {
+  margin-bottom: 10px;
+}
+
+.widget a {
+  color: #222;
+  text-decoration: none;
+}
+
+.widget a:hover {
+  color: #0073aa;
+}
+
+.entry-meta {
+  font-size: 0.9em;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0073aa;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.read-more:hover {
+  color: #005177;
+}
+
+article.post,
+article.page {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+
+article.post h2 a,
+article.page h1 {
+  color: #222;
+  text-decoration: none;
+}
+
+article.post h2 a:hover {
+  color: #0073aa;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Arial, sans-serif;
+}
+
+.archive-description {
+  background-color: #ffffff;
+  border-left: 4px solid #0073aa;
+  padding: 14px 18px;
+  margin-bottom: 24px;
+  border-radius: 6px;
+  color: #555;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.post-thumbnail {
+  margin: 18px 0 22px;
+}
+
+.post-thumbnail img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.post-content,
+.page-content {
+  line-height: 1.7;
+}
+
+.post-tags {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid #eee;
+  color: #666;
+}
+
+.post-tags a {
+  color: #0073aa;
+  text-decoration: none;
+}
+
+.post-tags a:hover {
+  color: #005177;
+  text-decoration: underline;
+}
+
+.post-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.nav-previous,
+.nav-next {
+  flex: 1;
+}
+
+.nav-next {
+  text-align: right;
+}
+
+.post-navigation a,
+.pagination a {
+  color: #0073aa;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.post-navigation a:hover,
+.pagination a:hover {
+  color: #005177;
+}
+
+.pagination {
+  margin-top: 24px;
+  padding-top: 18px;
+  border-top: 1px solid #eee;
+  color: #666;
+}
+
+/* Комментарии */
+.comments-area {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  margin-top: 30px;
+}
+
+.comments-title {
+  margin-top: 0;
+}
+
+.comment-list {
+  list-style: none;
+  padding: 0;
+}
+
+.comment-list li {
+  border-top: 1px solid #eee;
+  padding: 10px 0;
+}
+
+/* Адаптивность */
+@media (max-width: 800px) {
+  .site-content {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+
+  .main-sidebar {
+    width: 100%;
+  }
+
+  .main-navigation ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .post-navigation {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .nav-next {
+    text-align: left;
+  }
+}
