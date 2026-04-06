@@ -101,7 +101,7 @@ function usm_register_priority_taxonomy() {
 
 add_action( 'init', 'usm_register_priority_taxonomy' );
 ```
-![page priorities](image-7.png)
+![page priorities](image/image-7.png)
 
 ## Шаг 5. Добавление метабокса для даты напоминания
 
